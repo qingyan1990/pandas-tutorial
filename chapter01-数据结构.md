@@ -6,6 +6,7 @@ Pandas主要用于处理下面的三种数据结构:
 这些数据结构都是构建在Numpy array的基础上
 ### 简要描述
 DataFrame是Series的容器，而Panel是DataFrame的容器。
+
 |Data Structure|Dimensions|Description|
 |:-|:-:|:-|
 | Series | 1 | 1维同构数组，大小不可更改 |
@@ -19,7 +20,7 @@ DataFrame和Series较为重要，而Panel则很少使用。
 * 异构数据
 * 大小可更改
 * 值可更改
-#### 示例
+#### 示例
 
 |Name|Age|Gender|Rating|
 |:-|:-:|:-:|-:|
@@ -27,8 +28,10 @@ DataFrame和Series较为重要，而Panel则很少使用。
 | Lia | 28 | Female |	4.6 |
 | Vin | 45 | Male	| 3.9 |
 | Katie | 38 | Female | 2.78 |
+
 DataFrame可以看做是一张表格，每一列代表一个属性，每一行代表一条记录。  
 其中每一列或者每个属性都有自己对应的数据类型
+
 |Column|Type|
 |:-|:-|
 | Name | String |
